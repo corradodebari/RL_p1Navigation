@@ -28,13 +28,15 @@ The hyperparameters have been set as following:
 The training has run with these results: 
   
 ```
-Episode 100	Average Score: 1.12
-Episode 200	Average Score: 4.88
-Episode 300	Average Score: 8.34
-Episode 400	Average Score: 10.43
-Episode 487	Average Score: 13.03
+Episode 100	Average Score: 1.27
+Episode 200	Average Score: 4.52
+Episode 300	Average Score: 7.93
+Episode 400	Average Score: 10.13
+Episode 500	Average Score: 12.24
+Episode 555	Average Score: 13.11
 
-Environment solved in 387 episodes!	Average Score: 13.03
+Environment solved in 455 episodes!	Average Score: 13.11
+
 ```
 
 With this progress chart:
