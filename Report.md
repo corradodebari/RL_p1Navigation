@@ -46,8 +46,6 @@ With this progress chart:
 
 The Agent before training run as in this video:
 
-![un-trained](un-trained.gif)
-
 <p align="left">
   <img src="un-trained.gif" width="400" title="hover text">
 </p>
