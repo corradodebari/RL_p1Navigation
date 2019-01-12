@@ -52,7 +52,9 @@ The Agent before training run as in this video:
 
 After Training, the agent runs as follows:
 
-![Trained Agent][trained]
+<p align="left">
+  <img src="trained.gif" width="400" title="hover text">
+</p>
 
 ### Evolution for next releases
   
