@@ -35,7 +35,7 @@ Environment solved in 387 episodes!	Average Score: 13.03
 
 With this progress:
 
-[image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
+[alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/running.png)
 
 The Agent before training run as in this video:
 
