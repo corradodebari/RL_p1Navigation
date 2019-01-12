@@ -35,7 +35,7 @@ Environment solved in 387 episodes!	Average Score: 13.03
 
 With this progress:
 
-[alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/running.png)
+[score progress](https://raw.githubusercontent.com/corradodebari/RL_p1Navigation/master/running.png)
 
 The Agent before training run as in this video:
 
