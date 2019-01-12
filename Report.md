@@ -6,7 +6,7 @@
 
 ### Neural Network for Agent learning
 
-For this project, It has been used a standard neural network, made of 2 hidden layers. The architecture adopted is the following:
+For this project, It has been used a DQN Deep Q-network, made of 2 hidden layers. The architecture adopted is the following:
 
 - Input layer: 37
 - fully connected layer: units=64
@@ -14,6 +14,8 @@ For this project, It has been used a standard neural network, made of 2 hidden l
 - fully connected layer: units=64
 - activation: ReLU
 - Output fully connected: 4
+
+It has been used an Adam learning optimizer with a double network (local + target) and Replay Buffer to avoid instability in training.
 
 The hyperparameters are the following:
 
