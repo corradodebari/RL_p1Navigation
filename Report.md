@@ -49,5 +49,9 @@ After Training, the agent runs as follows:
 
 ![Trained Agent][trained]
 
+### Evolution for next releases
+  
+- Learning from pixels
+- Prioritized Experience Replay
 
 
