@@ -6,7 +6,7 @@
 
 ### Neural Network for Agent learning
 
-For this project, it has been used a DQN Deep Q-network, made of 2 hidden layers. The architecture adopted is the following:
+For this project, it has been used a DQN (Deep Q-network), made of 2 hidden layers. The architecture adopted is the following:
 
 - Input layer: 37
 - fully connected layer: units=64
@@ -15,9 +15,9 @@ For this project, it has been used a DQN Deep Q-network, made of 2 hidden layers
 - activation: ReLU
 - Output fully connected: 4
 
-It has been used an Adam learning optimizer with a double network (local + target) and Replay Buffer to avoid instability in training.
+It has been used an Adam learning optimizer with a double network (local + target) and Replay Buffer to avoid instability during training.
 
-The hyperparameters are the following:
+The hyperparameters have been set as following:
 
 - max episodes=5000
 - max steps=1000
@@ -25,7 +25,8 @@ The hyperparameters are the following:
 - eps end=0.01
 - eps decay=0.995
 
-The training has run with these results:
+The training has run with these results: 
+  
 ```
 Episode 100	Average Score: 1.12
 Episode 200	Average Score: 4.88
@@ -36,7 +37,7 @@ Episode 487	Average Score: 13.03
 Environment solved in 387 episodes!	Average Score: 13.03
 ```
 
-With this progress:
+With this progress chart:
 
 <p align="left">
   <img src="running.png" width="350" title="hover text">
