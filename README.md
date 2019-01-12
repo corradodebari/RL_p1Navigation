@@ -24,16 +24,10 @@ The task is episodic, and in order to solve the environment, your agent must get
 #### Dependencies
 
 To set up your python environment to run the code in this repository, follow the instructions below.
-1. Install Miniconda environment. Download from: https://conda.io/miniconda.html
 
-git clone https://github.com/corradodebari/RL_p1Navigation.git
-download UnityMac
+1. Install Miniconda software. Download it from: https://conda.io/miniconda.html
 
-pip install jupyter
-jupyter notebook --ip=0.0.0.0 --allow-root
-
-
-1. Create (and activate) a new environment with Python 3.6.
+2. Create (and activate) a new environment with Python 3.6.
 
 	- __Linux__ or __Mac__: 
 	```bash
@@ -47,12 +41,18 @@ jupyter notebook --ip=0.0.0.0 --allow-root
 	```
 
 	
-3. Clone the repository git clone https://github.com/corradodebari/RL_p1Navigation.git  
+3. Clone the repository "corradodebari/RL_p1Navigation" from GitHub (NOTE: install git client before or, alternatively, download as zip file)
+  
+```
+#git clone https://github.com/corradodebari/RL_p1Navigation.git  
+```
+  
 4. Install Jupyter Notebook in the environment:
+  
 ```
 #pip install jupyter
 ```
-
+  
 5. Download the Unity environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
@@ -65,10 +65,13 @@ Unzip and copy under directory:  RL_p1Navigation
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
 6. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.  
+  
 ```bash
 python -m ipykernel install --user --name drlnd --display-name "drlnd"
 ```
+  
 7. Run the notebook:
+  
 ```
 #cd RL_p1Navigation
 #jupyter notebook --ip=0.0.0.0 --allow-root
