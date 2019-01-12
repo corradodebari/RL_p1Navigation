@@ -48,6 +48,10 @@ The Agent before training run as in this video:
 
 ![un-trained](un-trained.gif)
 
+<p align="left">
+  <img src="un-trained.gif" width="400" title="hover text">
+</p>
+
 After Training, the agent runs as follows:
 
 ![Trained Agent][trained]
