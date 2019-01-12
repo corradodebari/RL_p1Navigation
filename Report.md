@@ -37,6 +37,8 @@ With this progress:
 
 [score progress](https://raw.githubusercontent.com/corradodebari/RL_p1Navigation/master/running.png)
 
+![Screenshot](running.png)
+
 The Agent before training run as in this video:
 
 ![untrained Agent][untrained]
