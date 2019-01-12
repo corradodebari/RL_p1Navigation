@@ -35,6 +35,11 @@ Environment solved in 387 episodes!	Average Score: 13.03
 
 With this progress:
 
+<p align="center">
+  <img src="running.png" width="350" title="hover text">
+  <img src="running.png" width="350" alt="accessibility text">
+</p>
+
 [score progress](https://raw.githubusercontent.com/corradodebari/RL_p1Navigation/master/running.png)
 
 ![Screenshot](running.png)
