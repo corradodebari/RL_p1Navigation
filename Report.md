@@ -46,7 +46,7 @@ With this progress chart:
 
 The Agent before training run as in this video:
 
-![untrained Agent][untrained]
+![un-trained](un-trained.gif)
 
 After Training, the agent runs as follows:
 
