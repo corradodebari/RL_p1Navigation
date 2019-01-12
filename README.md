@@ -21,9 +21,17 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
 ### Getting Started
-## Dependencies
+#### Dependencies
 
 To set up your python environment to run the code in this repository, follow the instructions below.
+1. Install Miniconda environment. Download from: https://conda.io/miniconda.html
+
+git clone https://github.com/corradodebari/RL_p1Navigation.git
+download UnityMac
+
+pip install jupyter
+jupyter notebook --ip=0.0.0.0 --allow-root
+
 
 1. Create (and activate) a new environment with Python 3.6.
 
@@ -39,36 +47,39 @@ To set up your python environment to run the code in this repository, follow the
 	```
 
 	
-3. Clone the repository https://github.com/corradodebari/RL_p1Navigation.git , and navigate to the `python/` folder.  Then, install several dependencies.
-```bash
-git clone https://github.com/corradodebari/RL_p1Navigation.git
-cd RL_p1Navigation/python
-pip install .
+3. Clone the repository git clone https://github.com/corradodebari/RL_p1Navigation.git  
+4. Install Jupyter Notebook in the environment:
+```
+#pip install jupyter
 ```
 
-4. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.  
-```bash
-python -m ipykernel install --user --name drlnd --display-name "drlnd"
-```
-
-5. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
-
-
-6. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
+5. Download the Unity environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
     - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
     - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
-    
+Unzip and copy under directory:  RL_p1Navigation
+
     (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-7. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
+6. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.  
+```bash
+python -m ipykernel install --user --name drlnd --display-name "drlnd"
+```
+7. Run the notebook:
+```
+#cd RL_p1Navigation
+#jupyter notebook --ip=0.0.0.0 --allow-root
+```
+
+8. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
+
 
 ### Instructions
 
-Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  
+Follow the instructions in `Report.ipynb` to get started with training your own agent!  
 
 ### (Optional) Challenge: Learning from Pixels
 
