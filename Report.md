@@ -6,7 +6,7 @@
 
 ### Neural Network for Agent learning
 
-For this project, It has been used a DQN Deep Q-network, made of 2 hidden layers. The architecture adopted is the following:
+For this project, it has been used a DQN Deep Q-network, made of 2 hidden layers. The architecture adopted is the following:
 
 - Input layer: 37
 - fully connected layer: units=64
